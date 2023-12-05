@@ -1,0 +1,23 @@
+{
+    "name": "npppc/entity",
+    "description": "entity",
+    "type": "library",
+    "require": {
+        "roave/better-reflection": "4.3.0",
+        "nette/utils": "v3.2.10",
+        "npppc/helper": "dev-master"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Npc\\Entity\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "npppc",
+            "email": "npcchina@outlook.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
